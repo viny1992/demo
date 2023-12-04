@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="208.0" prefWidth="270.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.crudmusica.UsuarioController">
+   <children>
+      <Label fx:id="datosUsuario" layoutX="59.0" layoutY="70.0" text="Label" />
+   </children>
+</AnchorPane>

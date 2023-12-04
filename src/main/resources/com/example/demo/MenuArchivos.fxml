@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.MenuArchivosController">
+   <children>
+      <TableView fx:id="tablaArchivos" editable="true" layoutX="30.0" layoutY="25.0" prefHeight="312.0" prefWidth="640.0">
+        <columns>
+          <TableColumn fx:id="nombreArchivo" prefWidth="471.0" text="Nombre Archivo" />
+          <TableColumn fx:id="fechaCreacion" prefWidth="167.0" text="Fecha de creación" />
+        </columns>
+      </TableView>
+      <Button fx:id="Agregar" layoutX="436.0" layoutY="354.0" mnemonicParsing="false" onAction="#crearArchivo" prefHeight="25.0" prefWidth="59.0" text="Agregar">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="Eliminar" layoutX="509.0" layoutY="354.0" mnemonicParsing="false" onAction="#borrarArchivo" prefHeight="25.0" prefWidth="59.0" text="Eliminar">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="botonCerrarSesion" layoutX="582.0" layoutY="354.0" mnemonicParsing="false" onAction="#cerrarSesion" prefHeight="25.0" prefWidth="88.0" text="Cerrar Sesión">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="botonAbrir" layoutX="363.0" layoutY="354.0" mnemonicParsing="false" onAction="#abrirArchivo" prefHeight="25.0" prefWidth="59.0" text="Abrir">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+   </children>
+</Pane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.LeerModificarArchivoController">
+   <children>
+      <TextArea fx:id="textAreaArchivo" layoutX="15.0" layoutY="44.0" prefHeight="312.0" prefWidth="670.0" promptText="Texto aquí" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font></TextArea>
+      <Button fx:id="botonCancelar" layoutX="608.0" layoutY="361.0" mnemonicParsing="false" onAction="#cancelar" prefHeight="25.0" prefWidth="77.0" text="Cancelar">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="botonGuardar" layoutX="521.0" layoutY="361.0" mnemonicParsing="false" onAction="#guardarArchivo" prefHeight="25.0" prefWidth="77.0" text="Guardar">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label fx:id="nombreArchivo" layoutX="15.0" layoutY="14.0" prefHeight="13.0" prefWidth="134.0" text="Nombre Archivo">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
